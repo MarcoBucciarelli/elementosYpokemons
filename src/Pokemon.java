@@ -15,9 +15,9 @@ public class Pokemon {
     private Integer defensa;
     private Integer ataque;
     public Estados estado;
-    public Elemento elemento;
+    public Elementos elemento;
 
-    public Pokemon(String nombre, String info, Integer nivel, Integer velocidad, Elemento elemento) {
+    public Pokemon(String nombre, String info, Integer nivel, Integer velocidad, Elementos elemento) {
         this.nombre = nombre;
         this.info = info;
         this.nivel = nivel;

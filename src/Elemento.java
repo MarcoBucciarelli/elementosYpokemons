@@ -16,20 +16,5 @@ enum Elementos {
     VOLADOR,
 }
 
-public class Elemento {
-    public String nombre;
-    public Elementos tipo;
-
-    public Elemento(String nombre, Elementos tipo) {
-        this.nombre = nombre;
-        this.tipo = tipo;
-    }
-
-    public Enum getTipo() {
-        return tipo;
-    }
-}
-
-
 
 
